@@ -1,0 +1,50 @@
+.portfolio-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .portfolio-details p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .portfolio-graph {
+    margin-top: 30px;
+  }
+  
+  .bar-graph {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .bar {
+    height: 40px;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 5px;
+  }
+  
+  .bar-label {
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    font-size: 14px;
+  }
+  
+  .bar-value {
+    position: absolute;
+    bottom: -20px;
+    right: 10px;
+    font-size: 14px;
+  }
+  
